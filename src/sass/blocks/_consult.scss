@@ -1,0 +1,38 @@
+.consult {
+    min-height: 677px;
+    padding-top: 93px;
+    background: url('../../img/bg2.png') center / cover no-repeat;
+    &__heading {
+        font-size: 36px;
+        font-weight: 500;
+        color: white;
+        margin-left: 4px;
+    }
+    p {
+        margin-top: 71px;
+        margin-left: 4px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    &__form {
+        margin-top: 35px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        input {
+            margin-bottom: 16px;
+            width: 300px;
+            height: 50px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            color: #4b4b4b;
+            padding: 20px;
+        }
+    }
+    &__accept {
+        width: 300px;
+        height: 50px;
+    }
+}
